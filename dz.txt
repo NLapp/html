@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Учебник по HTML </title>
+        <style type="text/css">
+         .r1, .r2,  .r3, .r4 
+        {
+            display: block; /*элемент показывается как блок*/
+            height: 1px;/* Высота */
+            background: #997cbd;
+            overflow: hidden;/*отображается только область внутри элемента, остальное скрыто */
+        }
+        .r1 {  margin: 0 5px; width: 610px;} /*отступы вокруг элемента*/
+        .r2 {  margin: 0 3px; width: 614px}
+        .r3 {  margin: 0 2px; width: 616px}
+        .r4 {  margin: 0 1px; height: 2px; width: 618px}
+        .block-round-content
+            { 
+            width: 600px;
+            background: #997cbd; /* Цвет фона */
+            padding: 10px; /* Поля вокруг текста */
+            }
+        .example
+        {
+            color: rgb(215, 190, 236);/* цвет шрифта примера */
+        }
+        </style>
+    </head>
+    <body>
+        <h1>HTML тэги</h1><!-- название -->
+        <!-- верхнее скругление блока -->
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span> 
+        <div class= "block-round-content"> <!-- блок -->
+            &lt;b&gt; - устанавливает жирное начертание шрифта. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;b&gt;Человек&lt;/b&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><b>Человек</b> — сам кузнец своего счастья.</span>
+        </div>
+        <!-- нижнее скругление блока -->
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <!-- следующий блок -->
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;i&gt; - устанавливает курсивное начертание шрифта. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;i&gt;Человек&lt;/i&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><i>Человек</i> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;u&gt; - добавляет подчеркивание к тексту. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;u&gt;Человек&lt;/u&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><u>Человек</u> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;s&gt; - отображает текст как перечеркнутый. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;s&gt;Человек&lt;/s&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><s>Человек</s> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;big&gt; - увеличивает размер шрифта на единицу по сравнению с обычным текстом. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;big&gt;Человек&lt;/big&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><big>Человек</big> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;small&gt; - уменьшает размер шрифта на единицу по сравнению с обычным текстом. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;small&gt;Человек&lt;/small&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><small>Человек</small> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;tt&gt; - отображает текст моноширинным текстом. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;tt&gt;Человек&lt;/tt&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><tt>Человек</tt> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;sub&gt; - отображает шрифт в виде нижнего индекса. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;sub&gt;Человек&lt;/sub&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><sub>Человек</sub> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;sup&gt; - отображает шрифт в виде верхнего индекса. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;sup&gt;Человек&lt;/sup&gt; — сам кузнец своего счастья.<br>
+            <span class="example"><sup>Человек</sup> — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;h1 (до h6)&gt; - шесть заголовков разного уровня, которые показывают относительную важность секции, расположенной после заголовка. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;h1&gt;Человек — &lt;/h1&gt; &lt;h2&gt;сам кузнец своего счастья.&lt;/h2&gt;<br>
+            <span class="example">
+                <h1>Человек — </h1> 
+                <h2>сам кузнец своего счастья.</h2>
+            </span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;li&gt; - определяет отдельный элемент списка. <br>
+            Закрывающий тег - не обязателен.<br>
+            &lt;ul&gt; и &lt;ol&gt; - устанавливает тип списка: маркированный или нумерованный. <br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;ul&gt;<br>
+            &lt;li&gt;Человек — &lt;/li&gt;<br>
+            &lt;li&gt;сам &lt;li&gt;<br>
+            &lt;/ul&gt;<br>
+            &lt;ol&gt;<br>
+            &lt;li&gt;кузнец&lt;/li&gt;<br>
+            &lt;li&gt;своего&lt;/li&gt;<br>
+            &lt;li&gt;счастья.&lt;/li&gt;<br>
+            &lt;/ol&gt;<br>
+            <span class="example">
+            <ul>
+                <li>Человек — </li>
+                <li>сам </li>
+            </ul>
+            <ol>
+                <li>кузнец</li>
+                <li>своего</li>
+                <li>счастья.</li>
+            </ol>
+            </span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;table&gt; - служит контейнером для элементов, определяющих содержимое таблицы. <br>
+            Закрывающий тег - обязателен.<br>
+            &lt;td&gt; - предназначен для создания одной ячейки таблицы.<br>
+            Закрывающий тег - не обязателен.<br>
+            &lt;tr&gt; - служит контейнером для создания строки таблицы.<br>
+            Закрывающий тег - не обязателен.<br>
+            Синтаксис:<br>
+            &lt;table border="1"&gt;<br>
+            &lt;tr&gt;<br>
+            &lt;td&gt;Человек —&lt;td&gt;<br>
+            &lt;td&gt; сам кузнец  &lt;td&gt;<br>
+            &lt;td&gt;своего счастья. &lt;td&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;/table&gt;<br>
+            <span class="example">
+                <table border="1">
+                    <tr>
+                        <td>Человек — </td>
+                        <td>сам кузнец </td>
+                        <td>своего счастья.</td>
+                    </tr>
+                </table>
+            </span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;p&gt; - определяет текстовый абзац. <br>
+            Закрывающий тег - не обязателен.<br>
+            Синтаксис:<br>
+            &lt;p&gt;Человек — сам кузнец своего счастья.&lt;/p&gt;<br>
+            <span class="example"><p>Человек — сам кузнец своего счастья.</p></span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;br&gt; - устанавливает перевод строки в том месте, где этот тег находится.  <br>
+            Закрывающий тег - не требуется.<br>
+            Синтаксис:<br>
+            Человек — &lt;br&gt; сам кузнец своего счастья.<br>
+            <span class="example">Человек — <br> сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;center&gt; - выравнивает содержимое контейнера по центру относительно родительского элемента.<br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;center&gt;Человек —  сам кузнец своего счастья.&lt;/center&gt;<br>
+            <span class="example"><center>Человек — сам кузнец своего счастья.</center></span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;a&gt; - предназначен для создания ссылок.<br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;a href="https://n1s1.elle.ru/48/7b/36/487b36(очень много букв и цифр)300c.jpeg&gt; никакой цитаты, только котик &lt;/a&gt;<br>
+            <span class="example"><a href="https://n1s1.elle.ru/48/7b/36/487b36300c62c5f0cb905da52aa874b4/940x627_1_5a0bfdc1ca88097a61d2d64668c61ef9@940x627_0xc0a839a4_18087198581488362059.jpeg"> никакой цитаты, только котик</a></span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;iframe&gt; - создает плавающий фрейм.<br>
+            Закрывающий тег - обязателен.<br>
+            Синтаксис:<br>
+            &lt;iframe src="Untitled-1.html" width="468" height="60" align="left"&gt; &lt;/iframe&gt;<br>
+            <span class="example"><iframe src="Untitled-1.html" width="468" height="60" ></iframe></span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+
+        <span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span>
+        <div class= "block-round-content">
+            &lt;html&gt; - является контейнером, который заключает в себе все содержимое веб-страницы, включая теги &lt;head&gt; и &lt;body&gt;. <br>
+            Закрывающий тег - не обязателен.<br>
+            &lt;head&gt; - предназначен для хранения других элементов, цель которых — помочь браузеру в работе с данными. <br>
+            Закрывающий тег - не обязателен.<br>
+            &lt;meta&gt; - определяет метатеги, которые используются для хранения информации предназначенной для браузеров и поисковых систем.<br>
+            Закрывающий тег - не требуется.<br>
+            &lt;title&gt; - определяет заголовок документа.<br>
+            Закрывающий тег - обязателен.<br>
+            &lt;body&gt; - предназначен для хранения содержания веб-страницы.<br>
+            Открывающий и закрывающий теги не обязательны.<br>
+            Синтаксис:<br>
+            &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;meta charset="utf-8"&gt;<br>
+            &lt;title&gt;цитата&lt;/title&gt;<br>
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;p&gt;Человек — сам кузнец своего счастья.&lt;/p&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+            <span class="example">Человек — сам кузнец своего счастья.</span>
+        </div>
+        <span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span><br>
+    </body>
+</html>
